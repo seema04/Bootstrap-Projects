@@ -1,0 +1,116 @@
+/*navbar*/
+body{
+    font-family: cursive;
+}
+p{
+    margin:0;
+    padding:0;
+}
+#top-nav{
+  background-color: #daac00;
+  padding: 1% 5%;
+}
+.logo-cont{
+    display:flex;
+    column-gap: 0.4em;
+    justify-content: center;
+    align-items: center;
+}
+.logo-text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.1em !important;
+}
+.logo-text p{
+  font-size: 2.5vmin;
+  margin-bottom: 0;
+}
+.logo-text h5{
+    font-size: 3.5vmin;
+}
+a .paw-logo{
+    width:30px;
+    height:30px;
+    object-fit: cover;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color:rgb(255,255,255);
+  font-size: 3vmin;
+  padding-left: 2rem;
+} 
+#search-form{
+    position: relative;
+}
+#search-box{
+ background-color: #fcc302;
+ border:0;
+ z-index: 10;
+ border-radius:0;
+ color: white !important;;
+ position: relative;
+ box-shadow: 5px 10px 11px 0 #00000021;
+ margin-bottom: 1em;
+
+}
+#search-box::placeholder{
+    color:white;
+}
+
+#search-btn{
+ position: absolute;
+ border-radius: 0;
+ right:0;
+ z-index:100;
+ background-color: #00bec9;
+ padding:0.31em 0.9em;
+}
+
+.bi{
+    color:white;
+}
+
+/***********banner**********/
+.sec-1{
+    background-color: #fcc302;
+    width:100%;
+    color:white;
+}
+.banner-text{
+    width:60%;
+   }
+
+.img-banner{
+    width:40%;
+}
+.banner-img{
+    width:120px;
+    height:200px;
+    object-fit: cover;
+}
+.banner{
+    display: flex;
+    margin:0 2em;
+    padding: 3.5em 1.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-btn{
+    background-color: #00bec9;
+    border: none;
+    padding: 0.5em;
+    color:white;
+    border-radius:2px;
+    margin: 2em 0.8em 2em 0.5em;
+}
+
+#service-btn,#btn1{
+    background-color:#fcc302;
+    border: 2px solid white;
+    padding: 0.4em;
+    color: white;
+    border-radius:2px;
+}
+

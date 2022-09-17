@@ -1,0 +1,56 @@
+
+/************2nd section********/
+
+.service-cont{
+    margin:2.5em 0 3em 0;
+    padding:1.5em;
+}
+.service{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2em;
+}
+
+.service-heading h3{
+    margin-top:0.5em;
+    font-size: 6vmin;
+    margin-bottom: 1em;
+}
+.service-heading p{
+    margin-left: 0;
+    text-align: left;
+}
+
+.service-heading{
+    width:60%;
+}
+.service img{
+    width:250px;
+    height:200px;
+    object-fit: cover;
+    background-color: #fcc302;
+}
+.service-video{
+    width:40%;
+    position: relative;
+}
+
+.overlays{
+    width:250px;
+    height: 200px;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: #fcc302;
+    opacity: 0.5;
+    z-index: 200;
+}
+.play{
+    position: absolute;
+    top:45%;
+    left:25%;
+    font-size: 2rem;
+}

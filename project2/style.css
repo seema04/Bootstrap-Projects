@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+.logo img{
+    width:50px;
+    height:50px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top:2%;
+    left:2%;
+}
+.navbar{
+    display: flex;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    justify-content: space-between;
+    padding: 1.25em;
+    color:#fff;
+}
+.nav-link{
+    display: flex;
+    column-gap:1.2em;
+    align-items: center;
+}
+
+.navbar li{
+    list-style: none;
+}
+.active{
+    color:#fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.menu-btn{
+    position: absolute;
+    top:2%;
+    right:2%;
+    width:30px;
+    cursor: pointer;
+    display: none;
+}
+@media only screen and (max-width:650px){
+    .menu-btn{
+        display:block;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .logo img{
+        position: absolute;
+        top:1%;
+        left:6%;
+    }
+    .nav-link{
+        flex-direction: column;
+        width:100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: rgb(96, 83, 118);
+        margin-top:-900px;
+        transition:all 1s ease;
+    }
+    .nav-link li{
+        margin:2.275em auto;
+    }
+    .mobile-menu{
+        margin-top:0;
+        border-bottom-right-radius:30%;
+    }
+}
+
+.header{
+    height:100vh;
+    background-image: url(img/header-bg.png);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+.header h2{
+    font-size: 4vmin;
+    margin:1.125em 0 0.875em 0;
+}
+.header h1{
+    font-size:7vmin;
+    text-transform: uppercase;
+    font-weight: 600;
+  
+}
+.header-content{
+    margin-bottom: 1em 0;
+    text-align: center;
+}
+.line{
+    width:30vw;
+    height:4px;
+    background: #fc036b;
+    margin:10px auto;
+    border-radius:5px;
+}
+.header-content a{
+    text-decoration: none;
+
+}
+.ctn{
+    padding:0.5em 0.9375em;
+    background-color: #fc036b;
+    border-radius: 35px;
+    color:#fff;
+}

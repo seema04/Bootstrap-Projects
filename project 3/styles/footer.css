@@ -1,0 +1,55 @@
+.footer{
+    background-color:#2d2d2b;
+}
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section h1{
+   font-size:3.2vmin;
+   padding:2.5em 0 0.5em 0;
+}
+.footer-section p{
+    font-size: 1.8vmin;
+}
+.about,.services,.title{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start; 
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+#inputbar{
+    margin: 0.3em 0;
+    background-color: #fcc302;
+    border:none;
+    height:30px;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.inputbar-sec{
+    position:relative;
+}
+.twitter-logo{
+    position:absolute;
+    background-color: #00bec9;
+    height:30px;
+    width:30px;
+    right:0;
+    top:0%;
+}
+.footer-icons .bi{
+   margin:0.2em;
+}
+.twitter-logo .twitter-toolkit{
+    position: absolute;
+}

@@ -1,0 +1,65 @@
+/*********section-3************/
+.sec3{
+    background-color: #fcc302;
+}
+.sec3-div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5em;
+    justify-content: center;
+    align-items: center;
+}
+.sec3-head h1,p{
+    padding:0.25em;
+    text-align: center;
+}
+.sec3-img img{
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.sec3-img{
+    width:50%;
+    display: flex;
+    column-gap: 1.5em;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+/*****************sec-4***********/
+.sec4{
+ padding:2em;
+
+}
+.doc-profile{
+    display:flex;
+    column-gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+.doc-bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 6px rgba(rgb(251, 235, 5));
+}
+.doc-bio img{
+    width:150px;
+    height:150px;
+    object-fit:cover;
+}
+.doc-bio .name{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.doc-bio .post{
+    font-size: 2vmin;
+    text-transform: uppercase;
+}
+.doc-profile .bi{
+    color:#fcc302;
+    margin:0.4em;
+}
